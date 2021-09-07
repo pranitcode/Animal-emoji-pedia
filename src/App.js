@@ -32,7 +32,7 @@ const animals = {
 };
 const App = () => {
   const animalList = Object.keys(animals) //it will convert iinto list 
-  const [mening, setMening] = useState("animal name will appeare heare")
+  const [mening, setMening] = useState("Enter Emoji")
   const emojihandler = event => {
   
     let emoj = event.target.value;
